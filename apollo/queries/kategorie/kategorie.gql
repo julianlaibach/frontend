@@ -1,0 +1,15 @@
+query Kategorie($id: ID!) {  
+  kategorie(id: $id) {
+    id
+    title
+    unterkategories {
+      id
+      title
+      description
+      Preis
+      image {
+        url
+      }
+    }
+  }
+}

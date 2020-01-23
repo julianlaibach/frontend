@@ -1,0 +1,10 @@
+query Kategories {  
+  kategories {
+    id
+    title
+    description
+    image {
+      url
+    }
+  }
+}
